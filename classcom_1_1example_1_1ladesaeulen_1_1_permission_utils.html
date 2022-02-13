@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: com.example.ladesaeulen.PermissionUtils Class Reference</title>
+<title>E-Mobility: com.example.ladesaeulen.PermissionUtils Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,8 +24,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Icon-transparent.png"/></td>
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">E-Mobility
    </div>
   </td>
  </tr>
@@ -101,8 +102,9 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a55cb90826df652c2c56c0888469d238d"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_permission_utils.html#a55cb90826df652c2c56c0888469d238d">requestPermission</a> (AppCompatActivity activity, int requestId, String permission, boolean finishActivity)</td></tr>
-<tr class="memdesc:a55cb90826df652c2c56c0888469d238d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the fine location permission. If a rationale with an additional explanation should be shown to the user, displays a dialog that triggers the request.  <a href="classcom_1_1example_1_1ladesaeulen_1_1_permission_utils.html#a55cb90826df652c2c56c0888469d238d">More...</a><br /></td></tr>
+<tr class="memitem:a55cb90826df652c2c56c0888469d238d"><td class="memItemLeft" align="right" valign="top"><a id="a55cb90826df652c2c56c0888469d238d" name="a55cb90826df652c2c56c0888469d238d"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>requestPermission</b> (AppCompatActivity activity, int requestId, String permission, boolean finishActivity)</td></tr>
+<tr class="memdesc:a55cb90826df652c2c56c0888469d238d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Requests the fine location permission. If a rationale with an additional explanation should be shown to the user, displays a dialog that triggers the request. <br /></td></tr>
 <tr class="separator:a55cb90826df652c2c56c0888469d238d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a947f959061aaebf1423fc60252d791fb"><td class="memItemLeft" align="right" valign="top">static boolean&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_permission_utils.html#a947f959061aaebf1423fc60252d791fb">isPermissionGranted</a> (String[] grantPermissions, int[] grantResults, String permission)</td></tr>
 <tr class="memdesc:a947f959061aaebf1423fc60252d791fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">checks if the result contains granted permission Checks if the result contains a <code><a class="el" href="">PackageManager#PERMISSION_GRANTED</a></code> result for a permission from a runtime permissions request.  <a href="classcom_1_1example_1_1ladesaeulen_1_1_permission_utils.html#a947f959061aaebf1423fc60252d791fb">More...</a><br /></td></tr>
@@ -110,8 +112,6 @@ Static Public Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Utility class for access to runtime permissions. </p>
-
-<p class="definition">Definition at line <a class="el" href="_permission_utils_8java_source.html#l00033">33</a> of file <a class="el" href="_permission_utils_8java_source.html">PermissionUtils.java</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a947f959061aaebf1423fc60252d791fb" name="a947f959061aaebf1423fc60252d791fb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a947f959061aaebf1423fc60252d791fb">&#9670;&nbsp;</a></span>isPermissionGranted()</h2>
@@ -165,64 +165,10 @@ Static Public Member Functions</h2></td></tr>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>always false </dd></dl>
 
-<p class="definition">Definition at line <a class="el" href="_permission_utils_8java_source.html#l00064">64</a> of file <a class="el" href="_permission_utils_8java_source.html">PermissionUtils.java</a>.</p>
-
-</div>
-</div>
-<a id="a55cb90826df652c2c56c0888469d238d" name="a55cb90826df652c2c56c0888469d238d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55cb90826df652c2c56c0888469d238d">&#9670;&nbsp;</a></span>requestPermission()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void com.example.ladesaeulen.PermissionUtils.requestPermission </td>
-          <td>(</td>
-          <td class="paramtype">AppCompatActivity&#160;</td>
-          <td class="paramname"><em>activity</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>requestId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">String&#160;</td>
-          <td class="paramname"><em>permission</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">boolean&#160;</td>
-          <td class="paramname"><em>finishActivity</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Requests the fine location permission. If a rationale with an additional explanation should be shown to the user, displays a dialog that triggers the request. </p>
-
-<p class="definition">Definition at line <a class="el" href="_permission_utils_8java_source.html#l00040">40</a> of file <a class="el" href="_permission_utils_8java_source.html">PermissionUtils.java</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/Dom/AndroidStudioProjects/Ladesaeulen/Ladesaeulen/app/src/main/java/com/example/ladesaeulen/<a class="el" href="_permission_utils_8java_source.html">PermissionUtils.java</a></li>
+<li>C:/Users/Dom/AndroidStudioProjects/Ladesaeulen/Ladesaeulen/app/src/main/java/com/example/ladesaeulen/PermissionUtils.java</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

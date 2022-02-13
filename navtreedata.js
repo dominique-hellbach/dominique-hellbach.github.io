@@ -24,7 +24,7 @@
 */
 var NAVTREE =
 [
-  [ "My Project", "index.html", [
+  [ "E-Mobility", "index.html", [
     [ "Packages", "namespaces.html", [
       [ "Packages", "namespaces.html", "namespaces_dup" ]
     ] ],
@@ -36,17 +36,14 @@ var NAVTREE =
         [ "All", "functions.html", null ],
         [ "Functions", "functions_func.html", null ]
       ] ]
-    ] ],
-    [ "Files", "files.html", [
-      [ "File List", "files.html", "files_dup" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"_build_config_8java_source.html",
-"classcom_1_1example_1_1ladesaeulen_1_1_service_report_activity.html#a2d73dee9349b54c8bc1ef08b758025f5"
+"annotated.html",
+"namespacecom_1_1example_1_1ladesaeulen.html"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

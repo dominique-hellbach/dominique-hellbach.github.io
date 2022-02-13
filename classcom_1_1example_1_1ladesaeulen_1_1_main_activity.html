@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: com.example.ladesaeulen.MainActivity Class Reference</title>
+<title>E-Mobility: com.example.ladesaeulen.MainActivity Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,8 +24,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Icon-transparent.png"/></td>
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">E-Mobility
    </div>
   </td>
  </tr>
@@ -117,8 +118,9 @@ Public Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a37deb65f8d74fb559e8996d7da112437"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#a37deb65f8d74fb559e8996d7da112437">DynamicallyAddMarks</a> ()</td></tr>
-<tr class="memdesc:a37deb65f8d74fb559e8996d7da112437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the dynamic display of markers Only displays markers, if the display markers button is active. First clears items from the cluster manager and calls clustering to really clear the displayed markers. Always just adds markers to the clusterManager in the current visible region of the map fragment. If the active user is a service technician then only ChargingStations with a defect are added to the clusterManager. If its a normal user then markers are only added if the zoom level is above 8, because on lower zoom levels the displaying of clusters seems unnecessary. In the end <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#ae7c1d209db6e287290145f84242528a6" title="this gets called if markers change and the render cache needs to be cleared this function creates a c...">cluster()</a> gets called again to render the clusters and markers.  <a href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#a37deb65f8d74fb559e8996d7da112437">More...</a><br /></td></tr>
+<tr class="memitem:a37deb65f8d74fb559e8996d7da112437"><td class="memItemLeft" align="right" valign="top"><a id="a37deb65f8d74fb559e8996d7da112437" name="a37deb65f8d74fb559e8996d7da112437"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>DynamicallyAddMarks</b> ()</td></tr>
+<tr class="memdesc:a37deb65f8d74fb559e8996d7da112437"><td class="mdescLeft">&#160;</td><td class="mdescRight">Handles the dynamic display of markers Only displays markers, if the display markers button is active. First clears items from the cluster manager and calls clustering to really clear the displayed markers. Always just adds markers to the clusterManager in the current visible region of the map fragment. If the active user is a service technician then only ChargingStations with a defect are added to the clusterManager. If its a normal user then markers are only added if the zoom level is above 8, because on lower zoom levels the displaying of clusters seems unnecessary. In the end <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#ae7c1d209db6e287290145f84242528a6" title="this gets called if markers change and the render cache needs to be cleared this function creates a c...">cluster()</a> gets called again to render the clusters and markers. <br /></td></tr>
 <tr class="separator:a37deb65f8d74fb559e8996d7da112437"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b095985532eeb300dbcc725d2786294"><td class="memItemLeft" align="right" valign="top">static String&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#a1b095985532eeb300dbcc725d2786294">getActiveUser</a> ()</td></tr>
 <tr class="memdesc:a1b095985532eeb300dbcc725d2786294"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the active user.  <a href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#a1b095985532eeb300dbcc725d2786294">More...</a><br /></td></tr>
@@ -129,8 +131,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a6315fd65e8e854912ae71d822a8f085f"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#a6315fd65e8e854912ae71d822a8f085f">setMapToSearchItem</a> (double lat, double lon)</td></tr>
 <tr class="memdesc:a6315fd65e8e854912ae71d822a8f085f"><td class="mdescLeft">&#160;</td><td class="mdescRight">provides a way to move the camera to give lat and lon with fixed zoom level  <a href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#a6315fd65e8e854912ae71d822a8f085f">More...</a><br /></td></tr>
 <tr class="separator:a6315fd65e8e854912ae71d822a8f085f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7c1d209db6e287290145f84242528a6"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#ae7c1d209db6e287290145f84242528a6">cluster</a> ()</td></tr>
-<tr class="memdesc:ae7c1d209db6e287290145f84242528a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">this gets called if markers change and the render cache needs to be cleared this function creates a completely new cluster renderer and sets it to the cluster manager. This is done so the cache is completely cleared, which for example is necessary if a user reports a defect and the color of the marker needs to be changed. Because the camera doesn't move, the marker render is still in the cache and doesn't even change on a clear() and <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#ae7c1d209db6e287290145f84242528a6" title="this gets called if markers change and the render cache needs to be cleared this function creates a c...">cluster()</a> on the cluster renderer. This function then calls <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#a37deb65f8d74fb559e8996d7da112437" title="Handles the dynamic display of markers Only displays markers, if the display markers button is active...">DynamicallyAddMarks()</a> to proceed with the normal dynamic display of markers.  <a href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#ae7c1d209db6e287290145f84242528a6">More...</a><br /></td></tr>
+<tr class="memitem:ae7c1d209db6e287290145f84242528a6"><td class="memItemLeft" align="right" valign="top"><a id="ae7c1d209db6e287290145f84242528a6" name="ae7c1d209db6e287290145f84242528a6"></a>
+static void&#160;</td><td class="memItemRight" valign="bottom"><b>cluster</b> ()</td></tr>
+<tr class="memdesc:ae7c1d209db6e287290145f84242528a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">this gets called if markers change and the render cache needs to be cleared this function creates a completely new cluster renderer and sets it to the cluster manager. This is done so the cache is completely cleared, which for example is necessary if a user reports a defect and the color of the marker needs to be changed. Because the camera doesn't move, the marker render is still in the cache and doesn't even change on a clear() and <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#ae7c1d209db6e287290145f84242528a6" title="this gets called if markers change and the render cache needs to be cleared this function creates a c...">cluster()</a> on the cluster renderer. This function then calls <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#a37deb65f8d74fb559e8996d7da112437" title="Handles the dynamic display of markers Only displays markers, if the display markers button is active...">DynamicallyAddMarks()</a> to proceed with the normal dynamic display of markers. <br /></td></tr>
 <tr class="separator:ae7c1d209db6e287290145f84242528a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -138,8 +141,9 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:aa55f277a13f78a270ae4dd64e8d6189a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#aa55f277a13f78a270ae4dd64e8d6189a">onCreate</a> (Bundle savedInstanceState)</td></tr>
 <tr class="memdesc:aa55f277a13f78a270ae4dd64e8d6189a"><td class="mdescLeft">&#160;</td><td class="mdescRight">creates the View with functionality and calls multiple activities calls the <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_log_in_activity.html" title="Implements the possibility of logging in, switching to registering instead or logging in as a service...">LogInActivity</a>, <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_get_charging_stations_activity.html" title="Implements the needed functions to read the data of the charging stations and create the ChargingStat...">GetChargingStationsActivity</a>, creates the map fragment and implements the functionality of the bottom menu bar buttons  <a href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#aa55f277a13f78a270ae4dd64e8d6189a">More...</a><br /></td></tr>
 <tr class="separator:aa55f277a13f78a270ae4dd64e8d6189a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3360c3ff3d270456234ea706bd08162"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#af3360c3ff3d270456234ea706bd08162">onResumeFragments</a> ()</td></tr>
-<tr class="memdesc:af3360c3ff3d270456234ea706bd08162"><td class="mdescLeft">&#160;</td><td class="mdescRight">shows a dialog, if permissions were denied  <a href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#af3360c3ff3d270456234ea706bd08162">More...</a><br /></td></tr>
+<tr class="memitem:af3360c3ff3d270456234ea706bd08162"><td class="memItemLeft" align="right" valign="top"><a id="af3360c3ff3d270456234ea706bd08162" name="af3360c3ff3d270456234ea706bd08162"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>onResumeFragments</b> ()</td></tr>
+<tr class="memdesc:af3360c3ff3d270456234ea706bd08162"><td class="mdescLeft">&#160;</td><td class="mdescRight">shows a dialog, if permissions were denied <br /></td></tr>
 <tr class="separator:af3360c3ff3d270456234ea706bd08162"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab8d98b752a17c7bae3f93b55010e6e88"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#ab8d98b752a17c7bae3f93b55010e6e88">onActivityResult</a> (int requestCode, int resultCode, Intent data)</td></tr>
 <tr class="memdesc:ab8d98b752a17c7bae3f93b55010e6e88"><td class="mdescLeft">&#160;</td><td class="mdescRight">adds marks after <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_get_charging_stations_activity.html" title="Implements the needed functions to read the data of the charging stations and create the ChargingStat...">GetChargingStationsActivity</a> returns and loads history and favorites of normal user  <a href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#ab8d98b752a17c7bae3f93b55010e6e88">More...</a><br /></td></tr>
@@ -147,67 +151,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >this is the main view which holds the maps and the different menu buttons This class calls the <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_log_in_activity.html" title="Implements the possibility of logging in, switching to registering instead or logging in as a service...">LogInActivity</a> and the <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_get_charging_stations_activity.html" title="Implements the needed functions to read the data of the charging stations and create the ChargingStat...">GetChargingStationsActivity</a> and initializes the GoogleMap. It provides the functionality of the bottom menu bar and a functionality to dynamically add markers on different conditions. </p>
-
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00103">103</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae7c1d209db6e287290145f84242528a6" name="ae7c1d209db6e287290145f84242528a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7c1d209db6e287290145f84242528a6">&#9670;&nbsp;</a></span>cluster()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void com.example.ladesaeulen.MainActivity.cluster </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>this gets called if markers change and the render cache needs to be cleared this function creates a completely new cluster renderer and sets it to the cluster manager. This is done so the cache is completely cleared, which for example is necessary if a user reports a defect and the color of the marker needs to be changed. Because the camera doesn't move, the marker render is still in the cache and doesn't even change on a clear() and <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#ae7c1d209db6e287290145f84242528a6" title="this gets called if markers change and the render cache needs to be cleared this function creates a c...">cluster()</a> on the cluster renderer. This function then calls <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#a37deb65f8d74fb559e8996d7da112437" title="Handles the dynamic display of markers Only displays markers, if the display markers button is active...">DynamicallyAddMarks()</a> to proceed with the normal dynamic display of markers. </p>
-
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00542">542</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
-
-</div>
-</div>
-<a id="a37deb65f8d74fb559e8996d7da112437" name="a37deb65f8d74fb559e8996d7da112437"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37deb65f8d74fb559e8996d7da112437">&#9670;&nbsp;</a></span>DynamicallyAddMarks()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void com.example.ladesaeulen.MainActivity.DynamicallyAddMarks </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Handles the dynamic display of markers Only displays markers, if the display markers button is active. First clears items from the cluster manager and calls clustering to really clear the displayed markers. Always just adds markers to the clusterManager in the current visible region of the map fragment. If the active user is a service technician then only ChargingStations with a defect are added to the clusterManager. If its a normal user then markers are only added if the zoom level is above 8, because on lower zoom levels the displaying of clusters seems unnecessary. In the end <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_main_activity.html#ae7c1d209db6e287290145f84242528a6" title="this gets called if markers change and the render cache needs to be cleared this function creates a c...">cluster()</a> gets called again to render the clusters and markers. </p>
-
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00478">478</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
-
-</div>
-</div>
 <a id="a1b095985532eeb300dbcc725d2786294" name="a1b095985532eeb300dbcc725d2786294"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1b095985532eeb300dbcc725d2786294">&#9670;&nbsp;</a></span>getActiveUser()</h2>
 
@@ -233,8 +177,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>Gets the active user. </p>
 <dl class="section return"><dt>Returns</dt><dd>activeUser as string </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00509">509</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
 
 </div>
 </div>
@@ -287,8 +229,6 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00457">457</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
 
 </div>
 </div>
@@ -354,8 +294,6 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00125">125</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
-
 </div>
 </div>
 <a id="a65b1ff6c8d5719ca49470c870f189205" name="a65b1ff6c8d5719ca49470c870f189205"></a>
@@ -395,8 +333,6 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00270">270</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
-
 </div>
 </div>
 <a id="ae76ed8c187e74063e8a98ae493b68f71" name="ae76ed8c187e74063e8a98ae493b68f71"></a>
@@ -416,8 +352,6 @@ Protected Member Functions</h2></td></tr>
 
 <p>displays a dialog if the my location button is clicked </p>
 <dl class="section return"><dt>Returns</dt><dd>boolean false, so that we don't consume the event and default behavior still occurs </dd></dl>
-
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00442">442</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
 
 </div>
 </div>
@@ -444,8 +378,6 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00432">432</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
 
 </div>
 </div>
@@ -491,37 +423,6 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00390">390</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
-
-</div>
-</div>
-<a id="af3360c3ff3d270456234ea706bd08162" name="af3360c3ff3d270456234ea706bd08162"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3360c3ff3d270456234ea706bd08162">&#9670;&nbsp;</a></span>onResumeFragments()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void com.example.ladesaeulen.MainActivity.onResumeFragments </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>shows a dialog, if permissions were denied </p>
-
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00410">410</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
-
 </div>
 </div>
 <a id="a3a99408bb1d9bf2b4e180ec69879e469" name="a3a99408bb1d9bf2b4e180ec69879e469"></a>
@@ -555,8 +456,6 @@ Protected Member Functions</h2></td></tr>
   </table>
   </dd>
 </dl>
-
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00517">517</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
 
 </div>
 </div>
@@ -603,12 +502,10 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_main_activity_8java_source.html#l00526">526</a> of file <a class="el" href="_main_activity_8java_source.html">MainActivity.java</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/Dom/AndroidStudioProjects/Ladesaeulen/Ladesaeulen/app/src/main/java/com/example/ladesaeulen/<a class="el" href="_main_activity_8java_source.html">MainActivity.java</a></li>
+<li>C:/Users/Dom/AndroidStudioProjects/Ladesaeulen/Ladesaeulen/app/src/main/java/com/example/ladesaeulen/MainActivity.java</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->

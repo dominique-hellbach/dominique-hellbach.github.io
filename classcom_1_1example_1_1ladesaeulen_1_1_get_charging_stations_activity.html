@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.3"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>My Project: com.example.ladesaeulen.GetChargingStationsActivity Class Reference</title>
+<title>E-Mobility: com.example.ladesaeulen.GetChargingStationsActivity Class Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -24,8 +24,9 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr id="projectrow">
+  <td id="projectlogo"><img alt="Logo" src="Icon-transparent.png"/></td>
   <td id="projectalign">
-   <div id="projectname">My Project
+   <div id="projectname">E-Mobility
    </div>
   </td>
  </tr>
@@ -101,8 +102,9 @@ Inheritance diagram for com.example.ladesaeulen.GetChargingStationsActivity:</di
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a74f2c70c8e3753d73caf75cc790cb10f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_get_charging_stations_activity.html#a74f2c70c8e3753d73caf75cc790cb10f">csvRead</a> ()</td></tr>
-<tr class="memdesc:a74f2c70c8e3753d73caf75cc790cb10f"><td class="mdescLeft">&#160;</td><td class="mdescRight">reads the charging station data from a csv reads the csv data line by line, parses the read Strings and uses ';' as delimiter with the read data a <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_charging_station.html" title="represents a single charging station with all necessary information For each charging station an obje...">ChargingStation</a> object is created and saved to the station_list of the static <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_station_manager.html" title="static class that handles the created ChargingStation objects">StationManager</a> class. While creating the objects reported defects are simulated with a chance of about 5% to give an object a defect. if the data in a line of the csv file does not fit the expected format and creates errors, those are caught and the charging station is skipped.  <a href="classcom_1_1example_1_1ladesaeulen_1_1_get_charging_stations_activity.html#a74f2c70c8e3753d73caf75cc790cb10f">More...</a><br /></td></tr>
+<tr class="memitem:a74f2c70c8e3753d73caf75cc790cb10f"><td class="memItemLeft" align="right" valign="top"><a id="a74f2c70c8e3753d73caf75cc790cb10f" name="a74f2c70c8e3753d73caf75cc790cb10f"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>csvRead</b> ()</td></tr>
+<tr class="memdesc:a74f2c70c8e3753d73caf75cc790cb10f"><td class="mdescLeft">&#160;</td><td class="mdescRight">reads the charging station data from a csv reads the csv data line by line, parses the read Strings and uses ';' as delimiter with the read data a <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_charging_station.html" title="represents a single charging station with all necessary information For each charging station an obje...">ChargingStation</a> object is created and saved to the station_list of the static <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_station_manager.html" title="static class that handles the created ChargingStation objects">StationManager</a> class. While creating the objects reported defects are simulated with a chance of about 5% to give an object a defect. if the data in a line of the csv file does not fit the expected format and creates errors, those are caught and the charging station is skipped. <br /></td></tr>
 <tr class="separator:a74f2c70c8e3753d73caf75cc790cb10f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
@@ -113,30 +115,7 @@ Protected Member Functions</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >Implements the needed functions to read the data of the charging stations and create the <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_charging_station.html" title="represents a single charging station with all necessary information For each charging station an obje...">ChargingStation</a> objects. </p>
-
-<p class="definition">Definition at line <a class="el" href="_get_charging_stations_activity_8java_source.html#l00033">33</a> of file <a class="el" href="_get_charging_stations_activity_8java_source.html">GetChargingStationsActivity.java</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a74f2c70c8e3753d73caf75cc790cb10f" name="a74f2c70c8e3753d73caf75cc790cb10f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a74f2c70c8e3753d73caf75cc790cb10f">&#9670;&nbsp;</a></span>csvRead()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void com.example.ladesaeulen.GetChargingStationsActivity.csvRead </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>reads the charging station data from a csv reads the csv data line by line, parses the read Strings and uses ';' as delimiter with the read data a <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_charging_station.html" title="represents a single charging station with all necessary information For each charging station an obje...">ChargingStation</a> object is created and saved to the station_list of the static <a class="el" href="classcom_1_1example_1_1ladesaeulen_1_1_station_manager.html" title="static class that handles the created ChargingStation objects">StationManager</a> class. While creating the objects reported defects are simulated with a chance of about 5% to give an object a defect. if the data in a line of the csv file does not fit the expected format and creates errors, those are caught and the charging station is skipped. </p>
-
-<p class="definition">Definition at line <a class="el" href="_get_charging_stations_activity_8java_source.html#l00060">60</a> of file <a class="el" href="_get_charging_stations_activity_8java_source.html">GetChargingStationsActivity.java</a>.</p>
-
-</div>
-</div>
 <a id="a31bdb09cf163636df3522ecc66165b01" name="a31bdb09cf163636df3522ecc66165b01"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a31bdb09cf163636df3522ecc66165b01">&#9670;&nbsp;</a></span>onCreate()</h2>
 
@@ -169,12 +148,10 @@ Protected Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p class="definition">Definition at line <a class="el" href="_get_charging_stations_activity_8java_source.html#l00042">42</a> of file <a class="el" href="_get_charging_stations_activity_8java_source.html">GetChargingStationsActivity.java</a>.</p>
-
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/Dom/AndroidStudioProjects/Ladesaeulen/Ladesaeulen/app/src/main/java/com/example/ladesaeulen/<a class="el" href="_get_charging_stations_activity_8java_source.html">GetChargingStationsActivity.java</a></li>
+<li>C:/Users/Dom/AndroidStudioProjects/Ladesaeulen/Ladesaeulen/app/src/main/java/com/example/ladesaeulen/GetChargingStationsActivity.java</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
